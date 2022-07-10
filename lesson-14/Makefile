@@ -25,6 +25,7 @@ kernel.elf: boot/kernel_entry.o ${OBJ}
 run: os-image.bin
 	qemu-system-i386 -fda os-image.bin
 
+
 # Open the connection to qemu and load our kernel-object file with symbols
 debug: os-image.bin kernel.elf
 	qemu-system-i386 -s -fda os-image.bin &
