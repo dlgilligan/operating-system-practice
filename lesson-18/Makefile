@@ -35,6 +35,7 @@ debug: os-image.bin kernel.elf
 %.o: %.c ${HEADERS}
 	${CC} ${CFLAGS} -ffreestanding -c $< -o $@
 
+
 %.o: %.asm
 	nasm $< -f elf -o $@
 
