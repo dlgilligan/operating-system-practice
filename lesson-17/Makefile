@@ -38,6 +38,7 @@ debug: os-image.bin kernel.elf
 %.o: %.asm
 	nasm $< -f elf -o $@
 
+
 %.bin: %.asm
 	nasm $< -f bin -o $@
 
