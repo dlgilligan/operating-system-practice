@@ -1,0 +1,6 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory `/Users/dannygilligan/Desktop/Programming/operating-system/operating-system-practice'
+make: Leaving directory `/Users/dannygilligan/Desktop/Programming/operating-system/operating-system-practice'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
