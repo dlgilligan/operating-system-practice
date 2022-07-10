@@ -10,17 +10,17 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Sun Jul 10 17:50:40 2022
+# Make data base, printed on Sun Jul 10 17:55:17 2022
 
 # Variables
 
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
+ 
 ?F = $(notdir $?)
 # environment
 VSCODE_LOG_NATIVE = false
- 
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # automatic
@@ -125,6 +125,7 @@ MFLAGS = -Rrqp
 XPC_SERVICE_NAME = application.com.microsoft.VSCode.36918975.36918981
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
+ 
 # automatic
 +F = $(notdir $+)
 # environment
@@ -170,7 +171,6 @@ LANG = C
 
 # . (device 16777220, inode 37197852): 21 files, no impossibilities.
 
- 
 # 21 files, no impossibilities in 1 directories.
 
 # Implicit Rules
@@ -228,6 +228,7 @@ GNUmakefile:
 #  File has been updated.
 #  Failed to be updated.
 # variable set hash-table stats:
+ 
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 # files hash-table stats:
@@ -243,6 +244,6 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Sun Jul 10 17:50:40 2022
+# Finished Make data base on Sun Jul 10 17:55:17 2022
 
  
